@@ -14,7 +14,7 @@ export default function Zigzag() {
                     <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
                         <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Your integrated platform</div>
                         <h1 className="h2 mb-4">One product, unlimited solutions</h1>
-                        <p className="text-xl text-gray-400">A one stop solution for all your sharing needs. Make your own custom cards to share whatever information you want with others through a simple phone tap.</p>
+                        <p className="text-xl text-gray-400">A one stop solution for all your business needs. Make your own custom cards to share whatever information you want with others through a simple phone tap.</p>
                     </div>
 
                     {/* Items */}
@@ -30,7 +30,7 @@ export default function Zigzag() {
                             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                                     <h3 className="h3 mb-3">Easy Transactions</h3>
-                                    <p className="text-xl text-gray-400 mb-4">hrough a simple tap between two phones you can create a native apple pay transaction request.</p>
+                                    <p className="text-xl text-gray-400 mb-4">through a simple tap between two phones you can create a native apple pay transaction request.</p>
                                 </div>
                             </div>
                         </div>
