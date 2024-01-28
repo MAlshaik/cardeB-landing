@@ -9,31 +9,31 @@ import PageIllustration from '@/components/page-illustration'
 import Footer from '@/components/ui/footer'
 
 export default function DefaultLayout({
-  children,
+    children,
 }: {
-  children: React.ReactNode
-}) {  
+    children: React.ReactNode
+}) {
 
-  useEffect(() => {
-    AOS.init({
-      once: true,
-      disable: 'phone',
-      duration: 600,
-      easing: 'ease-out-sine',
+    useEffect(() => {
+        AOS.init({
+            once: true,
+            disable: 'phone',
+            duration: 600,
+            easing: 'ease-out-sine',
+        })
     })
-  })
 
-  return (
-    <>
-      <main className="grow">
+    return (
+        <>
+            <main className="grow">
 
-        <PageIllustration />
+                <PageIllustration />
 
-        {children}
+                {children}
 
-      </main>
+            </main>
 
-      <Footer />
-    </>
-  )
+            <Footer />
+        </>
+    )
 }
